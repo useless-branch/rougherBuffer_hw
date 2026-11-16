@@ -825,6 +825,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 69.85) (xy 240.03 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef947a3-1f68-4860-bdee-9b6011168995")
+	)
+	(wire
+		(pts
 			(xy 64.77 67.31) (xy 69.85 67.31)
 		)
 		(stroke
@@ -942,6 +952,16 @@
 			(type default)
 		)
 		(uuid "5f3b1480-d13c-41a2-bbbb-03bd09fa3f26")
+	)
+	(wire
+		(pts
+			(xy 135.89 69.85) (xy 138.43 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7276e135-0234-45a5-924d-b0362560f7cc")
 	)
 	(wire
 		(pts
@@ -1075,6 +1095,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 120.65) (xy 138.43 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ad8aaa-272a-475b-861c-6057ac154b17")
+	)
+	(wire
+		(pts
 			(xy 80.01 64.77) (xy 80.01 67.31)
 		)
 		(stroke
@@ -1092,6 +1122,16 @@
 			(type default)
 		)
 		(uuid "ca1865ae-efb1-4eca-a6b2-ad29e5aa8e13")
+	)
+	(wire
+		(pts
+			(xy 237.49 120.65) (xy 240.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07b92b0-822b-4af0-91de-0480bfd3db24")
 	)
 	(wire
 		(pts
@@ -1196,7 +1236,7 @@
 	)
 	(hierarchical_label "OUT3"
 		(shape output)
-		(at 130.81 120.65 0)
+		(at 138.43 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1207,7 +1247,7 @@
 	)
 	(hierarchical_label "OUT4"
 		(shape output)
-		(at 232.41 120.65 0)
+		(at 240.03 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1229,7 +1269,7 @@
 	)
 	(hierarchical_label "OUT1"
 		(shape output)
-		(at 130.81 69.85 0)
+		(at 138.43 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1262,7 +1302,7 @@
 	)
 	(hierarchical_label "OUT2"
 		(shape output)
-		(at 232.41 69.85 0)
+		(at 240.03 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2500,6 +2540,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71978c2e-1c52-4bb5-ada6-797f03cd16e4")
+		(property "Reference" "R53"
+			(at 133.35 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 133.35 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84d85853-214d-4a05-9e0a-00690bce31d7")
+		)
+		(pin "2"
+			(uuid "df3348a1-5478-480c-b4c8-5c1be7d083d3")
+		)
+		(instances
+			(project "rougherBuffer"
+				(path "/c0d2ffc4-ffb3-4fb2-93a8-ee5ba17421ff/7b4415de-858f-4d84-a509-c11bd4876c2b"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 181.61 74.93 0)
 		(unit 1)
@@ -3136,6 +3256,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 234.95 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be707f58-d5d4-4ff2-bf78-b6cae5ca71be")
+		(property "Reference" "R52"
+			(at 234.95 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 234.95 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 234.95 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 234.95 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af5ca93c-793e-469e-a7d8-ff093fd922d5")
+		)
+		(pin "2"
+			(uuid "5a22af12-c1ce-4ea0-b814-4d3736977c94")
+		)
+		(instances
+			(project "rougherBuffer"
+				(path "/c0d2ffc4-ffb3-4fb2-93a8-ee5ba17421ff/7b4415de-858f-4d84-a509-c11bd4876c2b"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bef7c427-7acd-4e33-be03-053dc5a6d652")
+		(property "Reference" "R51"
+			(at 133.35 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 133.35 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d94726ae-5bdf-4d1a-b274-0f0dedcc1798")
+		)
+		(pin "2"
+			(uuid "572b3fa4-6965-40e7-b3c4-92fcc350ce58")
+		)
+		(instances
+			(project "rougherBuffer"
+				(path "/c0d2ffc4-ffb3-4fb2-93a8-ee5ba17421ff/7b4415de-858f-4d84-a509-c11bd4876c2b"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 128.27 0)
 		(unit 1)
@@ -3442,6 +3722,86 @@
 			(project "rougherBuffer"
 				(path "/c0d2ffc4-ffb3-4fb2-93a8-ee5ba17421ff/7b4415de-858f-4d84-a509-c11bd4876c2b"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 234.95 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0ede625-3256-4801-9b84-e1402dd8796c")
+		(property "Reference" "R54"
+			(at 234.95 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 234.95 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 234.95 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 234.95 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26aac2f0-ca1a-475b-a41e-c12657d097c9")
+		)
+		(pin "2"
+			(uuid "ca3eceb1-c11b-4c32-a4d2-f869c15678a1")
+		)
+		(instances
+			(project "rougherBuffer"
+				(path "/c0d2ffc4-ffb3-4fb2-93a8-ee5ba17421ff/7b4415de-858f-4d84-a509-c11bd4876c2b"
+					(reference "R54")
 					(unit 1)
 				)
 			)

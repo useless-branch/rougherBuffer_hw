@@ -821,6 +821,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 86.36) (xy 163.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde9ede5-95d5-4b2f-8151-37c094808531")
+	)
+	(wire
+		(pts
 			(xy 149.86 92.71) (xy 149.86 86.36)
 		)
 		(stroke
@@ -842,7 +852,7 @@
 	)
 	(hierarchical_label "OUT"
 		(shape output)
-		(at 153.67 86.36 0)
+		(at 163.83 86.36 0)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -850,6 +860,85 @@
 			(justify left)
 		)
 		(uuid "b04c9230-89b9-4349-9326-5d871a93c254")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 156.21 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17eb1b7b-4e3f-4d75-b2ed-18e6070376ed")
+		(property "Reference" "R28"
+			(at 159.258 85.598 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 152.654 87.122 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 156.21 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 156.21 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e4ecaa0-7636-4b79-8276-8da4e5bc5ae1")
+		)
+		(pin "2"
+			(uuid "9c797776-11e0-4426-88fc-8f2c6d03d302")
+		)
+		(instances
+			(project "rougherBuffer"
+				(path "/c0d2ffc4-ffb3-4fb2-93a8-ee5ba17421ff/206e2838-9d00-4c3b-b6d2-bced50d7ff68"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
