@@ -124,10 +124,6 @@
         [
           "silk_edge_clearance|40000000|-35910000|223abe37-8916-4653-9021-39d765a2bac0|02a7dc59-e30e-453c-a73f-aa82bf397705",
           ""
-        ],
-        [
-          "unconnected_items|36600000|-43400000|F.Cu|4|53af6883-95f9-4fa8-8222-520bba39f876|b33fd1cc-1fbc-4559-959a-33bd4622cd12",
-          ""
         ]
       ],
       "meta": {
@@ -778,7 +774,7 @@
         "uuid": "c0d2ffc4-ffb3-4fb2-93a8-ee5ba17421ff"
       }
     ],
-    "used_designators": "#PWR8-9,#PWR11,#PWR17,#PWR20-21,#PWR25,#PWR27,#PWR35-36,#PWR38-64,#PWR72-79,C36-37,D1,D3-4,FB1,J3-5,J7,R5-6,R22-46,R50-60,RV1,U6-9,U11-15",
+    "used_designators": "#PWR4,#PWR6,#PWR8-11,#PWR17,#PWR20-21,#PWR25,#PWR27,#PWR35-36,#PWR38-64,#PWR72-79,C4,C11-12,C36-37,D1,D3-4,FB1,J3-5,J7,R5-6,R22-46,R50-60,RV1,U3,U6-9,U11-15",
     "variants": []
   },
   "sheets": [
