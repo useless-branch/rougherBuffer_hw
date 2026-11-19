@@ -1728,7 +1728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "52k"
+		(property "Value" "50k"
 			(at 82.55 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1809,7 +1809,7 @@
 				)
 			)
 		)
-		(property "Value" "42k"
+		(property "Value" "43k"
 			(at 173.99 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +1890,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "52k"
+		(property "Value" "50k"
 			(at 82.55 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1971,7 +1971,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA340NA"
+		(property "Value" "LM7301"
 			(at 123.19 116.7698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2143,7 +2143,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA340NA"
+		(property "Value" "LM7301"
 			(at 224.79 65.9698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2233,7 +2233,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA340NA"
+		(property "Value" "LM7301"
 			(at 123.19 65.9698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2324,7 +2324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "52k"
+		(property "Value" "50k"
 			(at 184.15 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2954,7 +2954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "52k"
+		(property "Value" "50k"
 			(at 184.15 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3035,7 +3035,7 @@
 				)
 			)
 		)
-		(property "Value" "42k"
+		(property "Value" "43k"
 			(at 173.99 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3115,7 +3115,7 @@
 				)
 			)
 		)
-		(property "Value" "42k"
+		(property "Value" "43k"
 			(at 72.39 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +3829,7 @@
 				)
 			)
 		)
-		(property "Value" "42k"
+		(property "Value" "43k"
 			(at 72.39 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3987,7 +3987,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA340NA"
+		(property "Value" "LM7301"
 			(at 224.79 116.7698 0)
 			(show_name no)
 			(do_not_autoplace no)

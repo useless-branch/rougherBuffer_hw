@@ -6738,7 +6738,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "TS-1088-AR02016"
 			(at 59.69 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6748,7 +6748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
 			(at 59.69 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7294,7 +7294,7 @@
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "TS-1088-AR02016"
 			(at 132.08 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7304,7 +7304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
 			(at 132.08 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9619,7 +9619,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB"
+		(property "Value" "TYPE-C-31-M-12"
 			(at 234.95 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)

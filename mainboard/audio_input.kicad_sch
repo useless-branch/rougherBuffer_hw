@@ -1146,7 +1146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "52k"
+		(property "Value" "50k"
 			(at 143.51 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1468,7 +1468,7 @@
 				)
 			)
 		)
-		(property "Value" "42k"
+		(property "Value" "43k"
 			(at 133.35 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1539,7 +1539,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3d2c646-849b-4743-a3c1-5031edfd9542")
 		(property "Reference" "U15"
-			(at 184.15 90.0998 0)
+			(at 182.88 90.0998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1548,8 +1548,8 @@
 				)
 			)
 		)
-		(property "Value" "OPA340NA"
-			(at 184.15 92.6398 0)
+		(property "Value" "LM7301"
+			(at 182.88 92.6398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -639,10 +639,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3d/mainboard.step",
       "svg": "",
       "vrml": ""
     },
@@ -716,14 +716,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referenz"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -774,7 +798,7 @@
         "uuid": "c0d2ffc4-ffb3-4fb2-93a8-ee5ba17421ff"
       }
     ],
-    "used_designators": "#PWR4,#PWR6-11,#PWR17,#PWR20-21,#PWR25,#PWR27,#PWR29,#PWR31,#PWR35-36,#PWR38-64,#PWR72-79,C4,C11-12,C36-45,D1-4,FB1,J3-5,J7,R5-6,R18,R22-46,R50-60,RV1,U1,U3,U6-9,U11-15",
+    "used_designators": "#PWR4,#PWR6-11,#PWR17,#PWR20-21,#PWR25,#PWR27,#PWR29,#PWR31,#PWR35-36,#PWR38-64,#PWR72-79,C4,C11-12,C36-45,D1-4,FB1,J3-5,J7,R5-6,R13-14,R18,R22-46,R50-60,RV1,U1,U3-4,U6-9,U11-15",
     "variants": []
   },
   "sheets": [
