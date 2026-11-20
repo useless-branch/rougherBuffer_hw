@@ -1600,7 +1600,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 232.156 143.002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1679,7 +1679,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 232.156 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +1914,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 172.212 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2149,7 +2149,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 232.156 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2384,7 +2384,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 232.156 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Own:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 177.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2780,7 +2780,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 232.156 130.302 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,7 +2860,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "20k"
 			(at 241.554 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,7 +2871,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Own:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 236.22 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2987,7 +2987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Own:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 179.07 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3148,7 +3148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Own:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 254 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3298,7 +3298,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 232.156 60.452 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3377,7 +3377,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 173.482 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3456,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 232.156 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,7 +3692,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "20k"
 			(at 241.554 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3703,7 +3703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Own:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 236.22 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3809,7 +3809,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "20k"
 			(at 241.554 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +3820,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Own:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 236.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3926,7 +3926,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "20k"
 			(at 241.554 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3937,7 +3937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Own:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 236.22 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4053,7 +4053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Own:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 254 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4214,7 +4214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Own:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 254 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4297,7 +4297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Own:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 254 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4447,7 +4447,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 232.156 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "own") (type "KiCad") (uri "/home/useless-branch/Projects/projects/rougherBufferFrontpanel/Own.pretty/own.pretty") (options "") (descr ""))
+)

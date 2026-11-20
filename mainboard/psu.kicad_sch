@@ -1809,7 +1809,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP1117-3.3_SOT223"
+		(property "Value" "NCP1117ST33T3G"
 			(at 115.57 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
